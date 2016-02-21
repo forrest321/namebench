@@ -2,7 +2,7 @@
 package history
 
 import (
-	"code.google.com/p/go.net/publicsuffix"
+	"github.com/forrest321/publicsuffix"
 	"log"
 	"math/rand"
 	"net/url"
@@ -15,7 +15,7 @@ var (
 
 func isPossiblyInternal(addr string) bool {
 	// note: this happens to reject IPs and anything with a port at the end.
-	_, icann := publicsuffix.PublicSuffix(addr)
+	_, icann, _ := publicsuffix.PublicSuffix(addr)
 	if !icann {
 		log.Printf("%s does not have a public suffix", addr)
 		return true

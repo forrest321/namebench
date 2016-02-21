@@ -9,7 +9,7 @@ import (
 	"os"
 	"os/exec"
 
-	"github.com/google/namebench/ui"
+	"github.com/forrest321/namebench/ui"
 )
 
 var nw_path = flag.String("nw_path", "/Applications/node-webkit.app/Contents/MacOS/node-webkit",

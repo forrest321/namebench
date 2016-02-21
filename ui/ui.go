@@ -7,9 +7,9 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/google/namebench/dnschecks"
-	"github.com/google/namebench/dnsqueue"
-	"github.com/google/namebench/history"
+	"github.com/forrest321/namebench/dnschecks"
+	"github.com/forrest321/namebench/dnsqueue"
+	"github.com/forrest321/namebench/history"
 )
 
 const (
