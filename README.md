@@ -46,3 +46,10 @@ RUNNING:
 ========
 * End-user: run ./namebench, which should open up a UI window.
 * Developer, run ./namebench_dev_server.sh for an auto-reloading webserver at http://localhost:9080/
+
+NOTES:
+========
+* made a copy of a copy of publicsuffix due to name mangling from code.google.com shennanigans
+* updated code to handle expected 3 params, discarding the new third. 
+* probably need to check that third param and reduce code elsewhere -fo
+
